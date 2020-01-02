@@ -27,7 +27,7 @@ def beffective(size,s,magparams):
     """ Auxilliary function to compute the effective magnetic field
         In: size        :: int
             s           :: list of size "size" with elements as numpy nd array
-            magparams   :: list of parameters [j,jsd,scd,k,d,hext,bc,mu]
+            magparams   :: list of parameters [j,jsd,scd,k,d,a1,a2,hext,bcon,dim,mu,T,dmi,inds]
         Out:
             llg         :: list of effective fields at sites i   
     """
